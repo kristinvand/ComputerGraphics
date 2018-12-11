@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>3D Interaction</title>
+  </head>
+
+  <body onload="main()">
+    <canvas id="webgl" width="400" height="400">
+    Please use a browser that supports "canvas"
+    </canvas>
+    <ul>
+        <li>i: Zoom In</li>
+        <li>o: Zoom Out</li>
+        <li>Left/Right Arrow: Arm Rotation</li>
+        <li>Up/Down Arrow: Joint Angle</li>
+    </ul>
+
+    <script src="../Common/webgl-utils.js"></script>
+    <script src="../Common/webgl-debug.js"></script>
+    <script src="../Common/cuon-utils.js"></script>
+    <script src="../Common/cuon-matrix.js"></script>
+    <script src="3DInteraction.js"></script>
+  </body>
+</html>
